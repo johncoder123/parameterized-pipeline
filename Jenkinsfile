@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('echo') {
             steps{
-                echo "$job_name"
+                echo "test1234"
             }
         }
     }
